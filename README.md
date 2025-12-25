@@ -32,9 +32,61 @@ The project is built using Expo and follows production-ready architectural patte
 
 ## APIs Used
 
-### 1. Create Dummy User
+### 1. Create Dummy User Api
+- Api: POST https://fakestoreapi.com/users
 - Creates a new user every time the API is called.  
-- Used to simulate account creation for users who do not have credentials.  
+- Used to simulate account creation for users who do not have credentials.
+  
+#### Purpose
+- Used to generate a **new unique user** every time
+- Simulates real-world account creation
+- Eliminates the need for hardcoded credentials
+- Used when user clicks **"Don't have an account?"**
+
+#### Request Payload
+{
+  "email": "random@test.com",
+  "username": "random@test.com",
+  "password": "randomPassword",
+  "name": {
+    "firstname": "Test",
+    "lastname": "User"
+  },
+  "address": {
+    "city": "test",
+    "street": "test",
+    "number": 1,
+    "zipcode": "00000"
+  },
+  "phone": "9999999999"
+}
+
+### 2. Login API
+- Api: POST https://fakestoreapi.com/auth/login
+- Authenticates pre-seeded users only.
+
+#### Request Payload
+{
+  "username": "mor_2314",
+  "password": "83r5^_"
+}
+
+### 3. Fetch Products API
+- Api: GET https://fakestoreapi.com/products
+- Authenticates pre-seeded users only.
+
+#### Request Output
+[
+  {
+    "id": 1,
+    "title": "Product Title",
+    "price": 109.95,
+    "description": "Product description",
+    "category": "electronics"
+  },
+  More ...
+  
+]
 
 ---
 
