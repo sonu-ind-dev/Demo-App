@@ -5,6 +5,24 @@ The project is built using Expo and follows production-ready architectural patte
 
 ---
 
+## App Screenshots
+
+### 1. Login Screen
+![Login Screen](./assets/app-screenshots/login-screen.png)  
+*Login screen with email/password and dummy account creation option.*
+
+### 2. Dummy Account Auto-Fill
+![Dummy Account](./assets/app-screenshots/dummy-account.png)  
+*Automatically fills email and password when a dummy account is created.*
+
+### 3. Data Screen
+![Data Screen](./assets/app-screenshots/data-screen.png)  
+*Shows product list fetched from FakeStore API with search functionality.*
+
+### 4. No Data Found State
+![No Data Found](./assets/app-screenshots/no-data.png)  
+*Displays "No data found" message when search yields no results.*
+
 ## Features
 
 - Login screen with email and password  
