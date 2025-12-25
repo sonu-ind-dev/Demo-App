@@ -9,6 +9,7 @@ The project is built using Expo and follows production-ready architectural patte
 
 ### 1. Login Screen
 ![Login Screen](https://github.com/sonu-ind-dev/Demo-App/blob/main/assets/App%20Screenshots/Login%20Page.jpg)
+
 *Login screen with email/password and dummy account creation option.*
 
 ### 2. Data Screen
