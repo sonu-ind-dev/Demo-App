@@ -61,6 +61,7 @@ The project is built using Expo and follows production-ready architectural patte
   },
   "phone": "9999999999"
 }
+```
 
 ### 2. Login API
 - Api: POST https://fakestoreapi.com/auth/login
@@ -72,12 +73,14 @@ The project is built using Expo and follows production-ready architectural patte
   "username": "mor_2314",
   "password": "83r5^_"
 }
+```
 
 ### 3. Fetch Products API
 - Api: GET https://fakestoreapi.com/products
 - Authenticates pre-seeded users only.
 
 #### Request Output
+```json
 [
   {
     "id": 1,
@@ -87,8 +90,8 @@ The project is built using Expo and follows production-ready architectural patte
     "category": "electronics"
   },
   More ...
-  
 ]
+```
 
 ---
 
