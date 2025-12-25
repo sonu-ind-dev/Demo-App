@@ -12,6 +12,8 @@ The project is built using Expo and follows production-ready architectural patte
 *Login screen with email/password and dummy account creation option.*
 
 ### 2. Data Screen
+
+![Login Screen](https://github.com/sonu-ind-dev/Demo-App/blob/main/assets/App%20Screenshots/Login%20Page.jpg)  
 ![Data Screen](https://github.com/sonu-ind-dev/Demo-App/blob/main/assets/App%20Screenshots/Data%20Page.jpg)  
 *Shows product list fetched from FakeStore API with search functionality.*
 
