@@ -44,6 +44,7 @@ The project is built using Expo and follows production-ready architectural patte
 - Used when user clicks **"Don't have an account?"**
 
 #### Request Payload
+```json
 {
   "email": "random@test.com",
   "username": "random@test.com",
@@ -66,6 +67,7 @@ The project is built using Expo and follows production-ready architectural patte
 - Authenticates pre-seeded users only.
 
 #### Request Payload
+```json
 {
   "username": "mor_2314",
   "password": "83r5^_"
