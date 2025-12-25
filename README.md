@@ -97,6 +97,7 @@ The project is built using Expo and follows production-ready architectural patte
 
 ## Folder Structure
 
+```json
 loginDataApp/
 
 ├── App.js -> Application entry point; wraps navigation and global providers.
@@ -120,9 +121,7 @@ loginDataApp/
 |
 
 │   ├── screens/
-
 │   │   ├── LoginScreen.js -> Login UI with email/password, dummy account creation, and password toggle.
-
 │   │   └── DataScreen.js -> Displays product data with debounced search and empty state handling.
 
 |
@@ -142,7 +141,7 @@ loginDataApp/
 |
 
 └── README.md
-
+```
 
 
 
