@@ -8,20 +8,19 @@ The project is built using Expo and follows production-ready architectural patte
 ## App Screenshots
 
 ### 1. Login Screen
-![Login Screen](https://github.com/sonu-ind-dev/Demo-App/blob/main/assets/App%20Screenshots/Data%20Page.jpg)
-https://github.com/sonu-ind-dev/Demo-App/blob/main/assets/App%20Screenshots/Data%20Page.jpg
+![Login Screen](https://github.com/sonu-ind-dev/Demo-App/blob/main/assets/App%20Screenshots/Login%20Page.jpg)
 *Login screen with email/password and dummy account creation option.*
 
-### 2. Dummy Account Auto-Fill
-![Dummy Account](./assets/app-screenshots/dummy-account.png)  
-*Automatically fills email and password when a dummy account is created.*
-
-### 3. Data Screen
-![Data Screen](./assets/app-screenshots/data-screen.png)  
+### 2. Data Screen
+![Data Screen](https://github.com/sonu-ind-dev/Demo-App/blob/main/assets/App%20Screenshots/Data%20Page.jpg)  
 *Shows product list fetched from FakeStore API with search functionality.*
 
+### 3. Search Product
+![Dummy Account](https://github.com/sonu-ind-dev/Demo-App/blob/main/assets/App%20Screenshots/Searching%20Data.jpg)  
+*Searching product by product name.*
+
 ### 4. No Data Found State
-![No Data Found](./assets/app-screenshots/no-data.png)  
+![No Data Found](https://github.com/sonu-ind-dev/Demo-App/blob/main/assets/App%20Screenshots/No%20Data%20Found.jpg)  
 *Displays "No data found" message when search yields no results.*
 
 ## Features
